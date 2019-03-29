@@ -4,7 +4,7 @@
 ## PaddlePaddle build and installation
 >Requirements: cmake >= 3.0, python protobuf >= 3.0, patchelf
 ```shell
-git clone -b calibration_tool https://github.com/chuanqi129/Paddle.git 
+git clone https://github.com/PaddlePaddle/Paddle.git 
 cd paddle
 mkdir build && cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=./tmp -DWITH_GPU=OFF -DWITH_MKLDNN=ON -DWITH_TESTING=ON -DWITH_PROFILER=ON -DWITH_MKL=ON -DWITH_INFERENCE_API_TEST=ON -DCMAKE_BUILD_TYPE=Release -DON_INFER=ON 
